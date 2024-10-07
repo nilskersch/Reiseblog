@@ -1,0 +1,109 @@
+/* Grundlayout */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f9; /* Sehr helles Grau für allgemeinen Hintergrund */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3d5a80; /* Dunkles Blau für starken Kontrast */
+    color: #e0fbfc; /* Helles Blau für angenehme Lesbarkeit */
+    padding: 20px;
+    text-align: center;
+}
+
+nav#toc {
+    background-color: #98c1d9; /* Helles Blau */
+    padding: 20px;
+}
+
+nav#toc ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav#toc li {
+    margin: 10px 0;
+}
+
+nav#toc a {
+    color: #3d5a80; /* Dunkelblau */
+    text-decoration: none;
+}
+
+nav#toc a:hover {
+    text-decoration: underline;
+}
+
+main section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Hintergrundfarbe nur für Marrakesh */
+#marrakesh {
+    background-color: #d16441; /* Hintergrundfarbe für Marrakesh */
+}
+
+/* Hintergrundfarbe für Essaouira */
+#essaouira {
+    background-color: #4a90e2; /* Blaue Farbe für Essaouira */
+}
+
+.city-title {
+    text-align: center;
+    color: #293241; /* Dunkles Blau */
+}
+
+details {
+    background-color: #e0fbfc; /* Sehr helles Blau */
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+details[open] summary {
+    color: #3d5a80; /* Dunkelblau wie die Überschriften */
+}
+
+summary {
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #3d5a80; /* Dunkelblau für alle Unterkategorien */
+}
+
+footer {
+    background-color: #3d5a80; /* Dunkles Blau */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1, h2 {
+    color: #e0fbfc; /* Helles Blau */
+}
+
+p {
+    color: #555;
+}
+
+a {
+    color: #3d5a80;
+}
+
+img {
+    max-width: 40%; /* Bildgröße weiter verkleinert */
+    height: auto;
+    border: 5px solid #3d5a80; /* Dunkelblau */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Zentrierung der Bilder */
+    margin-bottom: 20px; /* Abstand nach unten, um die Kategorien nicht zu überlappen */
+}
